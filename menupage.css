@@ -1,0 +1,130 @@
+
+        .nav-link {
+            text-decoration-line: none;
+            color: ivory;
+            font-size: 20px;
+            font-family: cursive;
+            font-weight: bolder;
+
+        }
+
+        .nav-link:hover {
+            transform: scale(1.5);
+            background-color: rgba(245, 194, 99, 0.884);
+        }
+
+        .navbar-brand {
+            font-size: 40px;
+        }
+
+        body {
+            background-image: url("images/food4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .back {
+            height: 500px;
+            width: 500px;
+            background-color: rgb(34, 18, 18);
+            margin-left: 500px;
+            margin-top: 140px;
+            opacity: 0.65;
+        }
+
+        h1 {
+            position: relative;
+            color: ivory;
+            margin-left: 130px;
+            font-family: cursive;
+            font-size: 50px;
+            font-weight: bolder;
+            opacity: 1;
+
+        }
+
+        .partone {
+            height: 175px;
+            width: 175px;
+
+            margin-left: 40px;
+            margin-top: 80px;
+        }
+
+
+        .parttwo {
+            height: 175px;
+            width: 175px;
+            background-color: whitesmoke;
+            opacity: 0.7;
+            margin-left: 275px;
+            margin-top: -175px;
+        }
+
+        p {
+            color: ivory;
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 20px;
+        }
+
+        .image1 {
+            height: 175px;
+            width: 175px;
+            opacity: 0.7;
+        }
+
+
+        .image2 {
+            height: 175px;
+            width: 175px;
+            opacity: 1;
+        }
+
+        .partone:hover {
+            transform: translate(1.5);
+        }
+
+        .btn1 {
+            border: cornflowerblue 2px solid;
+            margin-left: 80px;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: black;
+            color: ivory;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+
+        .btn2 {
+            border: cornflowerblue 2px solid;
+            margin-left: 130px;
+            margin-top: -30px;
+            padding: 15px;
+            color: ivory;
+            font-size: 20px;
+            font-weight: bolder;
+            background-color: black;
+        }
+
+        .image1:hover {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+
+        .image2:hover {
+            transform: scale(1.2);
+            opacity: 1;
+
+        }
+
+        .btn1:hover {
+            transform: scale(1.2);
+        }
+
+        .btn2:hover {
+            transform: scale(1.2);
+        }
+    
