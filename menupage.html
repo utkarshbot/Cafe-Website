@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="menupage.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Hello, world!</title>
 
 
@@ -30,43 +32,103 @@
                     <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="menupage.html">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Book Table</a>
+                    <a class="nav-link" href="booktable.html">BookTable</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">About</a>
+                    <a class="nav-link" href="aboutus.html" tabindex="-1" aria-disabled="false">About</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="back">
-        <h1>
+        <h1 id="hone">
             Our Menu
         </h1>
-        <p>
+        <p id="para">
             Select your best taste from our menu.......
         </p>
 
         <div class="partone ">
-            <img src="images/coffee-outline-icon-on-white-background-for-graphic-and-web-design-modern-simple-vector-sign-internet-concept-trendy-symbol-for-website-design-web-button-or-mobile-app-RHM0C5.jpg"
+            <img src="coffee-outline-icon-on-white-background-for-graphic-and-web-design-modern-simple-vector-sign-internet-concept-trendy-symbol-for-website-design-web-button-or-mobile-app-RHM0C5.jpg"
                 alt="" class="image1" id="i1" onmouseover="change()" )>
         </div>
         <div class="parttwo">
 
-            <img src="images/dessert-on-white-background-icon-R1PFW2.jpg" alt="" class="image2">
+            <img src="dessert-on-white-background-icon-R1PFW2.jpg" alt="" class="image2">
         </div>
 
-        <button class="btn1">
-            Coffee
-        </button>
+        <a href="coffee.html">
+            <button class="btn1">
+                Coffee
+            </button></a>
 
-        <button class="btn2">
-            Dessert
-        </button>
+        <a href="desserts.html">
+            <button class="btn2">
+                Dessert
+            </button>
+        </a>
     </div>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Cafe The Press Club is one of thr luxurios restaurent in the World,
+                        which offers traditional
+                        specialities which you can enjoy in the pleasant air conditioned ambience. The cafe has
+                        a
+                        capacity of 100 seats and 50 seats in the summer garden.
+                        The Press Club is a place where the tradition is blended with
+                        imagination and modern twist.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="coffee.html">Coffee</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="menupage.html">Menu</a></li>
+                        <li><a href="booktable.html">BookTable</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">The Press Club</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
