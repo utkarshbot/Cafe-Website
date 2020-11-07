@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booktable.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-links">
+            <a class="links selected" href="#" id="avn">The Press Club</a>
+        </div>
+        <div class="right-links">
+            <a class="links" href="homepage.html" id="nb"> Home</a>
+            <a class="links" href="menupage.html" id="nb">Menu</a>
+            <a class="links" href="booktable.html" id="nb"> BookTable</a>
+            <a class="links" href="aboutus.html" id="nb">About</a>
+        </div>
+    </nav>
+
+    <section class="banner">
+
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="card-container">
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select Day</option>
+                            <option value="sunday">Sunday</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select" aria-required="true">Select Hour</option>
+                            <option value="10">10: 00</option>
+                            <option value="10">12: 00</option>
+                            <option value="10">14: 00</option>
+                            <option value="10">16: 00</option>
+                            <option value="10">18: 00</option>
+                            <option value="10">20: 00</option>
+                            <option value="10">22: 00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1" required>
+
+                        <input type="submit" value="BOOK TABLE" onclick="myfunc()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6" id="abt">
+                    <h6>About</h6>
+                    <p class="text-justify"> Cafe The Press Club is one of thr luxurios restaurent in the World, which
+                        offers traditional specialities <br> which you can enjoy in the pleasant air conditioned
+                        ambience. The cafe has a
+                        capacity of 100 seats <br> and 50 seats in the summer garden.
+                        The Press Club is a place where the tradition is blended with <br>
+                        imagination and modern twist.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3" id="cat">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="coffee.html">Coffee</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3" id="ql">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links" id="fl">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="menupage.html">Menu</a></li>
+                        <li><a href="booktable.html">BookTable</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12" id="cpy">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#" id="fl">The Press Club</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons" id="si">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+
+        function myfunc() {
+            alert("Your table has been booked");
+        }
+
+
+    </script>
+
+</body>
+
+</html>
