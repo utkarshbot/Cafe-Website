@@ -450,6 +450,7 @@
     background-image: url("ctwo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    transition: scale 0.5s;
 }
 
 .colctwo
